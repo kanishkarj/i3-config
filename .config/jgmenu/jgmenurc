@@ -1,0 +1,39 @@
+tint2_look           = 0
+terminal_exec        = termite
+columns              = 2
+
+menu_width           = 500
+menu_height_min      = 480
+menu_height_max      = 480
+menu_padding_top     = 50
+menu_padding_right   = 40
+menu_padding_bottom  = 40
+menu_padding_left    = 40
+menu_radius          = 0
+menu_border          = 0
+menu_halign          = center
+menu_valign          = center
+
+item_margin_y        = 5
+item_height          = 30
+item_padding_x       = 8
+item_radius          = 0
+item_border          = 2
+
+sep_height           = 5
+
+icon_theme = Oranchelo
+
+font                 = San Francisco Text 10
+icon_size            = 20
+icon_text_spacing    = 3
+
+color_menu_bg        = ${xrdb:color0} 30 
+color_norm_bg        = ${xrdb:color1} 0
+color_norm_fg        = ${xrdb:color2} 80
+color_sel_bg         = ${xrdb:color3} 0
+color_sel_fg         = ${xrdb:color4} 30 
+color_sel_border     = ${xrdb:color5} 0
+color_sep_fg         = ${xrdb:color6} 30
+
+csv_no_dirs         = 1

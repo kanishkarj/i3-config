@@ -1,0 +1,37 @@
+alias yi="yaourt -S "
+alias ys="yaourt -s "
+alias yr="yaourt -R "
+alias yu="yaourt -Sy "
+alias yupg="yaourt -Syu "
+alias yii="yaourt --m-arg '--skipchecksums --skippgpcheck --skipinteg'  -S"
+alias yis="yaourt --m-arg '--skipchecksums --skippgpcheck --skipinteg'  -s" 
+alias yy="sudo pacman -Syy" 
+alias yref="sudo pacman-mirrors --fasttrack && sudo pacman -Syyu"
+
+alias sai="sudo apt install "
+alias sau="sudo apt update "
+alias saupg="sudo apt upgrade "
+alias sas="apt-cache search "
+# alias sai="sudo apt install "
+
+alias ni="npm install --save"
+alias nid="npm install --save -d"
+alias nig="npm install --save -g"
+alias nu="npm install --save"
+
+alias cintel="sudo prime-select intel"
+alias cnvidia="sudo prime-select nvidia"
+
+alias e="exit"
+alias c="clear"
+alias zconf="vim ~/.zshrc"
+alias aconf="vim ~/.aliases"
+alias reload="source ~/.zshrc"
+
+alias sshcode=" ssh -R 52698:localhost:52698 "
+
+alias crun="g++ ./$0 -o ./$0 && ./%0"
+
+alias compstrt="pkill compton && nohup compton & "
+
+alias dros="docker run -v /home/kanishkarj/work/workspace:/home/workspace  -it --env=\"DISPLAY\" --env=\"QT_X11_NO_MITSHM=1\" --volume=\"/tmp/.X11-unix:/tmp/.X11-unix:rw\"  ros"
