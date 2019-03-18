@@ -29,9 +29,9 @@ Install the following application in your system :
 
 ### Conky Config
 
-https://github.com/erikdubois/Aureola/tree/master/shailen
-https://github.com/addy-dclxvi/conky-theme-collections/tree/master/syclo
-https://github.com/addy-dclxvi/conky-theme-collections/tree/master/horical
+* https://github.com/erikdubois/Aureola/tree/master/shailen
+* https://github.com/addy-dclxvi/conky-theme-collections/tree/master/syclo
+* https://github.com/addy-dclxvi/conky-theme-collections/tree/master/horical
 
 -----------------------------------------------------------
 ## Screenshots
